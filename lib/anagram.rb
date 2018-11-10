@@ -15,8 +15,9 @@ attr_accessor :word
         else
           answer << anagram
         end
+      end
+      answer
     end
-    answer
   end
 
 end
