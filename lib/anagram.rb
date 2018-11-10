@@ -16,7 +16,7 @@ attr_accessor :word
         word
         # binding.pry
       end
-      answer
+      # answer
     end
   end
 
