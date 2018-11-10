@@ -9,7 +9,7 @@ attr_accessor :word
 
   def match(possible_anagrams)
     answer=[]
-    possible_anagrams.find_all do |anagram|
+    possible_anagrams.each do |anagram|
       # binding.pry
       if self.word.split("").sort==anagram.split("").sort
         # answer << anagram
