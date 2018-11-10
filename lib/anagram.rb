@@ -1,4 +1,5 @@
 # Your code goes here!
+include "pry"
 class Anagram
 attr_accessor :word
 
@@ -11,6 +12,7 @@ attr_accessor :word
     possible_anagrams.each do |anagram|
       if word.split("")==anagram
         answer << anagram
+        binding.pry
       end
       answer
     end
