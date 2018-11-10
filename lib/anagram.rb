@@ -13,7 +13,7 @@ attr_accessor :word
       # binding.pry
       if word.split("").sort==anagram.split("").sort
         # answer << anagram
-        anagram
+        word
         # binding.pry
       end
       answer
