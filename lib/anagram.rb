@@ -9,8 +9,8 @@ attr_accessor :word
   def match(possible_anagrams)
     answer=[]
     possible_anagrams.each do |anagram|
-      anagram.each do |single_letter|
-        if !word.include?(letter)
+      anagram  do |single_letter|
+        if !word.include?(single_letter)
           return false
         else
           answer << anagram
