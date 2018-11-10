@@ -11,7 +11,7 @@ attr_accessor :word
     answer=[]
     possible_anagrams.each do |anagram|
       binding.pry
-      if word.split("")==anagram
+      if word.split("")==anagram.split("")
         answer << anagram
         binding.pry
       end
