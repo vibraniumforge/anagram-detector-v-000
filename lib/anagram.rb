@@ -12,7 +12,8 @@ attr_accessor :word
     possible_anagrams.each do |anagram|
       # binding.pry
       if word.split("").sort==anagram.split("").sort
-        answer << anagram
+        # answer << anagram
+        anagram
         # binding.pry
       end
       answer
