@@ -10,6 +10,7 @@ attr_accessor :word
   def match(possible_anagrams)
     answer=[]
     possible_anagrams.each do |anagram|
+      binding.pry
       if word.split("")==anagram
         answer << anagram
         binding.pry
