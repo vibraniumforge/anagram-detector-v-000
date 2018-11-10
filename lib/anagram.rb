@@ -9,8 +9,8 @@ attr_accessor :word
   def match(possible_anagrams)
     answer=[]
     possible_anagrams.each do |anagram|
-        if word.split("")==anagram
-          answer << anagram
+      if word.split("")==anagram
+        answer << anagram
       end
       answer
     end
