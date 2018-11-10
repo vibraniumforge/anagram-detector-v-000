@@ -1,5 +1,5 @@
 # Your code goes here!
-include "pry"
+require "pry"
 class Anagram
 attr_accessor :word
 
