@@ -5,5 +5,8 @@ attr_accessor :words
     @words=words
   end
 
+  def match(words)
 
+  end
+  
 end
