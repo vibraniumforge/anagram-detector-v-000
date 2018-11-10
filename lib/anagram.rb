@@ -10,7 +10,7 @@ attr_accessor :word
     answer=[]
     possible_anagrams.each do |anagram|
       anagram.each do |single_letter|
-        if !word.include?("letter")
+        if !word.include?(letter)
           return false
         else
           answer << anagram
